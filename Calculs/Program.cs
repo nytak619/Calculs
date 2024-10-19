@@ -20,7 +20,9 @@ namespace Calculs
             choix = 1;
             while (choix != 0)
             {
-                Beginning:
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
+            Beginning:
                 correct = false;
                 // affiche le menu et saisi le choix
                 Console.WriteLine("Addition ....................... 1");
@@ -44,8 +46,7 @@ namespace Calculs
                     case 1:
                     
                         // choix de l'addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                     
                     // saisie de la réponse
                     case1Try:
                         Console.Write(val1 + " + " + val2 + " = ");
@@ -74,8 +75,7 @@ namespace Calculs
                     case 2:
                     
                         // choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+
                         // saisie de la réponse
                         case2Try:
                         Console.Write(val1 + " x " + val2 + " = ");
