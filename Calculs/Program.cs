@@ -7,22 +7,6 @@ namespace Calculs
     /// </summary>
     class Program
     {
-        static void Main(string[] args)
-        {
-            // variables 
-            Random rand = new Random(); // outil de génération de nombre aléatoire
-            int val1, val2; // mémorisation de nombres aléatoires
-            int solution; // calcul de la solution
-            int reponse; // saisie de la réponse de l'utilisateur
-            int choix; // saisie du choix de l'utilsiateur
-            bool correct;
-            // boucle sur le menu
-            choix = 1;
-            while (choix != 0)
-            {
-                val1 = rand.Next(1, 10);
-                val2 = rand.Next(1, 10);
-            Beginning:
                 correct = false;
                 // affiche le menu et saisi le choix
                 Console.WriteLine("Addition ....................... 1");
